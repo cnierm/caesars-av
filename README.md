@@ -5,14 +5,12 @@ Caesar's Avalanche is a simple cypher written in Python. Small changes in input 
 
 Caesar's Avalanche is a command line, file based tool. Here is the help menu found from passing the `-h` flag through
 
-`options:`
-
-`  -h, --help           show this help message and exit`
-
-`  -d, --decode DECODE  File to decode`
-
-`  -e, --encode ENCODE  File to encode`
-
+```
+options:
+  -h, --help           show this help message and exit
+  -d, --decode DECODE  File to decode
+  -e, --encode ENCODE  File to encode
+```
 
 output files will have a `.e` added to them (ex: file.txt -> file.e.txt) when encoded. The .e is removed upon decoding. If decoding and no .e exists, a `.d` is added.
 
